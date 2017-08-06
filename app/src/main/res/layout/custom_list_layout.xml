@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
+
+    <ImageView
+        android:id="@+id/imageview_top_news"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:src="@drawable/cosmicem"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#eeeeee">
+        <TextView
+            android:id="@+id/textview_news_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is the news of the day please read me i wrote it my self and when i am done am done."
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/textview_news_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#666666"
+            android:text="May 13, 2017"/>
+    </LinearLayout>
+
+</LinearLayout>
