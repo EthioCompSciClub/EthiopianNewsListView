@@ -4,14 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#eeeeee">
-
     <ImageView
         android:id="@+id/imageview_top_news"
         android:layout_width="100dp"
         android:layout_height="120dp"
         android:src="@drawable/cosmicem"
+        android:scaleType="fitXY"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
