@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected ArrayList<NewsData> doInBackground(Void... params) {
             ArrayList<NewsData> temp = new NewsFetch().FetchTopNews();
-            temp.addAll(new NewsFetch().FetchOtherNews());
             return temp;
         }
 
